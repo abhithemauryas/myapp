@@ -1,0 +1,110 @@
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+  padding: 25px;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.form input {
+  padding: 8px 10px;
+  border-radius: 6px;
+ 
+}
+
+.form button {
+  margin-top: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+  
+}
+
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+.div-box {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  width: 300px;
+}
+
+.div-button {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.div-button button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.div-button button:first-child {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+
+.div-button button:last-child {
+  background-color: #4caf50;
+  color: white;
+}
+
+.p-tag {
+  margin: 5px 0;
+}
+
+.p-tag p {
+  
+  font-size: 14px;
+}
+
+/* Signup-page */
+.Signup-div{
+width: 50%;
+margin: auto;
+}
+
+.logOut-button-div{
+  display: flex;
+  justify-content: end;
+  margin: 0 5px 20px 30px;
+}
+.Logout-Button{
+    margin: 20px 25px 20px 30px;
+    padding: 10px 25px 10px 25px ;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 6px;
+
+}
